@@ -345,7 +345,7 @@ class AppUI:
             print("No image processed yet. Please import an image first.")
             return
 
-        self.preview_pil.save(f"posterize preview.png")
+        self.preview_pil.save(f"posterize_preview.png")
         print(f"Saved posterized preview")
         for i, layer_img in enumerate(self.layers):
             layer_filename = f"layer_{i+1}.png"
