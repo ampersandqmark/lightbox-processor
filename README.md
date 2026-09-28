@@ -1,4 +1,4 @@
-# Tape Art Template Processor v1.0
+# Lightbox Template Processor v1.1
 
 A tool for generating posterized layer blueprints for lightbox and polarization tape art.
 
@@ -23,7 +23,7 @@ A tool for generating posterized layer blueprints for lightbox and polarization 
 
 Clone the repository:
    ```bash
-   git clone https://github.com/ampersandqmark/tape-art-processor.git
+   git clone https://github.com/ampersandqmark/lightbox-processor.git
    ```
 Install dependencies:
 
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ```bash
 # in the src dir:
-python main.py
+python lightbox.py
 ```
 
 ## Transparency and Additional Information:
