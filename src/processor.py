@@ -6,9 +6,6 @@ from PIL import ImageOps
 
 class ImageProcessor:
     @staticmethod
-    def process_CLAHE():
-        pass
-
     def process_image(
                 image_path, 
                 num_layers=6, 
